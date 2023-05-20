@@ -1,15 +1,15 @@
 # langchain_chatpdf
 Talk with your pdfs
 
+## Dependencies in your env
+`pip install langchain pypdf2 python-dotenv streamlit`
+
+## Set up your API Key
 Use '.env.example' to create your .env file with your own OPENAI_API_KEY
+### Find your API key here:
+OpenAI: https://platform.openai.com/account/api-keys
 
-### Dependencies in your env:
-pip install langchain pypdf2 python-dotenv streamlit
-
-#### Find your API Keys here:
-https://platform.openai.com/account/api-keys
-
-#### Inspired by this:
+### Inspired by this:
 https://bennycheung.github.io/ask-a-book-questions-with-langchain-openai
 
 Look at the diagram. The semantic search is done by facebook ai's FAISS (Facebooke AI Similarity Search)
