@@ -3,6 +3,7 @@ Talk with your pdfs
 
 ## Dependencies in your env
 `pip install langchain pypdf2 python-dotenv streamlit tiktoken faiss-cpu`
+
 or simply use the requirements.txt file as such:
 `pip install -r requirements`
 
