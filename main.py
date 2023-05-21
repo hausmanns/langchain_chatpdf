@@ -1,9 +1,9 @@
-from dotenv import load_dotenv  # Library to load environment variables
-import streamlit as st  # Framework for creating web applications
-from pdf_reader import read_pdf  # Function to read PDFs
-from text_splitter import split_text  # Function to split text into chunks
-from embedding_creator import create_embeddings  # Function to create embeddings
-from question_answerer import answer_question  # Function to generate answers to questions
+from dotenv import load_dotenv # Library to load environment variables
+import streamlit as st # Framework for creating web applications
+from utils.pdf_reader import read_pdf # Function to read PDFs
+from utils.text_splitter import split_text # Function to split text into chunks
+from utils.embedding_creator import create_embeddings # Function to create embeddings
+from utils.question_answerer import answer_question # Function to generate answers to questions
 
 from langchain.callbacks import get_openai_callback # Callback to get the OpenAI money spent
 def main():
