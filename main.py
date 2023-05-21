@@ -28,7 +28,7 @@ def main():
         user_question = st.text_input("Ask a question")
         if user_question:
             with get_openai_callback() as openai_callback: # How much you spend for executing this chain
-                response = answer_question(knowledge_base, user_question)
+                response = answer_question(knowledge_base, user_question, model_name="gpt-3.5-turbo")
                 print(openai_callback)
             st.write(response)
 
